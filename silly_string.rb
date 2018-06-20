@@ -31,7 +31,7 @@ puts "There are #{letter_count} in #{big_word}"
 
 bigger_word = big_word + "wow"  + "mom"  # Use String concatenation to add "wow" and "mom" to big_word
 
-new_letter_count = bigger_word.size 
+new_letter_count = bigger_word.size
 
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
@@ -46,6 +46,6 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence # Add your gsub chain here
+sentence = sentence.gsub ("A", "O") ("a", "o")# Add your gsub chain here
 
 puts sentence
